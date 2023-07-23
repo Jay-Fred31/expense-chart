@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <meta
+      name="description"
+      content="This page shows monthly expense summary"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="bg-orange">
+        <div class="flex">
+          <div class="balance">
+            <p>My balance</p>
+            <h2>$921.48</h2>
+          </div>
+          <img src="/images/logo.svg" alt="logo" />
+        </div>
+      </div>
+      <div class="expense">
+        <h2>Spending - Last 7 days</h2>
+        <div class="expense-summary">
+          <div class="expense-summary__bars">
+            <span class="mon"></span>
+            <span class="tue"></span>
+            <span class="wed highest"></span>
+            <span class="thu"></span>
+            <span class="fri"></span>
+            <span class="sat"></span>
+            <span class="sun"></span>
+          </div>
+          <div class="labels">
+            <span>mon</span>
+            <span>tue</span>
+            <span>wed</span>
+            <span>thu</span>
+            <span>fri</span>
+            <span>sat</span>
+            <span>sun</span>
+          </div>
+        </div>
+        <hr />
+        <div class="record">
+          <div class="record__amount">
+            <p>Total this month</p>
+            <h2>$478.33</h2>
+          </div>
+          <div class="record__last-month">
+            <h3>+2.4%</h3>
+            <p>from last month</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
